@@ -8,5 +8,5 @@ def index(request):
     return render(request, 'page.html', {'posts': posts})
 
 def post(request, URLSlug):
-    print('-->', URLSlug)
-    return HttpResponse('post page')
+    print('slug --> ', URLSlug)
+    return HttpResponse('a post page')
