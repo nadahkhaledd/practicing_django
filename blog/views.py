@@ -9,4 +9,6 @@ def index(request):
 
 def post(request, URLSlug):
     print('-->', URLSlug)
-    return HttpResponse('post page')
+    return render(request, 'post.html', {
+        'post': get_object_or_404(Post, URLSlug=URLSlug)
+    })
