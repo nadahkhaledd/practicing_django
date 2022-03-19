@@ -1,9 +1,11 @@
 {% extends 'base.html' %}
-<h1>Posts</h1>
-<h2><a href="/about">About</a></h2>
-{%for post in posts%}
-<div>
-    <h3><a href="/post/{{post.URLSlug}}">{{post.title}}</a></h3>
-    <p>{{post.summary}}</p>
-</div>
-{%endfor%}
+
+{% block content %}
+    <h1>Posts</h1>
+    {%for post in posts%}
+    <div>
+        <h3><a href="/post/{{post.URLSlug}}">{{post.title}}</a></h3>
+        <p>{{post.summary}}</p>
+    </div>
+    {%endfor%}
+{% endblock %}

@@ -7,6 +7,7 @@ class Post(models.Model):
     URLSlug = models.SlugField(max_length=150, unique=True)
     summary = models.CharField(max_length=350)
     body = models.TextField()
+    Image = models.ImageField(upload_to='img', default='placeholder.jpg')
     published = models.BooleanField(default=True)
     date = models.DateField(auto_now_add=True)
 
