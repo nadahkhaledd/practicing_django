@@ -8,9 +8,10 @@ def index(request):
     return render(request, 'page.html', {'posts': posts})
 
 def post(request, URLSlug):
-    print('-->', URLSlug)
+    posts = Post.objects.all()
     return render(request, 'post.html', {
-        'post': get_object_or_404(Post, URLSlug=URLSlug)
+        'post': get_object_or_404(Post, URLSlug=URLSlug),
+        'posts': posts
     })
 
 def about(request):
