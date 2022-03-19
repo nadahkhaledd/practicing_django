@@ -9,6 +9,8 @@
 - [x] create a model
 - [x] update views and their slug
 - [x] finish the design for the page
+- [x] load bootstrap
+- [ ] finish beautifying pages  
 
 ***
 **Some CMD commands for the beginning**
