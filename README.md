@@ -9,6 +9,16 @@
 - [x] create a model
 - [x] update views and their slug
 - [x] finish the design for the page
+- [x] load bootstrap
+- [ ] finish beautifying pages  
+
+***
+![Home](https://user-images.githubusercontent.com/63652516/159135096-55aeed9c-2885-48e8-81a3-3dc0fccb673d.PNG)  
+
+![post](https://user-images.githubusercontent.com/63652516/159135199-f035d1f5-b248-4920-96e8-dc70207f38b5.PNG)
+
+
+
 
 ***
 **Some CMD commands for the beginning**
