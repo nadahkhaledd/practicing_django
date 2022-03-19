@@ -7,7 +7,7 @@
 - [x] create django project
 - [x] start app
 - [x] create a model
-- [ ] update views and their slug
+- [x] update views and their slug
 - [ ] finish the design for the page
 
 ***
