@@ -18,7 +18,7 @@ from django.urls import path
 from blog import views as blog_views
 
 urlpatterns = [
-    path(r'post/(.*)', blog_views.post),
+    path(r'post/<slug:URLSlug>', blog_views.post),
     path('', blog_views.index),
     path('admin/', admin.site.urls),
 ]
