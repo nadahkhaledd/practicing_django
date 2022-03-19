@@ -1,9 +1,4 @@
-{% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
-
-{% load bootstrap3 %}
-{% bootstrap_css %}
-{% bootstrap_javascript %}
+{% extends 'base.html' %}
 <h1>Posts</h1>
 <h2><a href="/about">About</a></h2>
 {%for post in posts%}
