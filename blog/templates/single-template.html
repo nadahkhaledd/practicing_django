@@ -1,17 +1,17 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <div class="container">
-        <div class="col-md-3">
+    <div class="container" style="padding: 10px">
+        <div class="col-md-3" style="float:left; margin-top: 15px">
             {% for post in posts %}
-                <div>
-                    <div class="summary-title"> <a href="/post/{{post.URLSlug}}"> {{post.title}}</a></div>
+                <div style="padding: 10px">
+                    <div class="summary-title"> <a href="/post/{{post.URLSlug}}" style="text-decoration-line: none; color: cadetblue; font-weight: bold"> {{post.title}}</a></div>
                     <div class="summary">{{post.summary}}</div>
                 </div>
             {% endfor %}
         </div>
 
-        <div class="col-md-9">
+        <div class="col-md-9" style="float:left;">
             {% block entry %}
             {% endblock %}
         </div>

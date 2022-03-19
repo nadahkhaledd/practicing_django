@@ -2,19 +2,19 @@
 
 {% block content %}
 
-    <div class="container">
+    <div class="container" style="padding: 20px">
         <div class="row">
-            <div class="col-md-12">
-                <h1 class="thin center">Recent posts</h1>
+            <div class="col-md-12" style="margin: 10px">
+                <h1 class="thin center" style="text-align: center">Recent posts</h1>
             </div>
 
             {% for post in posts %}
-                <div class="col-md-4">
+                <div class="col-md-4" style="margin-top: 15px">
                     <div class="card">
                         <div class="card-header" style="background: url({{ post.Image.url }})">
-                            <h3 class="post-title"><a href="/post/{{post.URLSlug}}"> {{post.title}}</a></h3>
+                            <h3 class="post-title"><a href="/post/{{post.URLSlug}}" style="text-decoration: none; text-decoration-line: none; color: brown;"> {{post.title}}</a></h3>
                         </div>
-                        <p>{{post.summary}}</p>
+                        <p style="margin: 7px">{{post.summary}}</p>
                     </div>
                 </div>
             {% endfor %}
