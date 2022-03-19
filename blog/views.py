@@ -12,3 +12,6 @@ def post(request, URLSlug):
     return render(request, 'post.html', {
         'post': get_object_or_404(Post, URLSlug=URLSlug)
     })
+
+def about(request):
+    return render(request, 'about.html', )
