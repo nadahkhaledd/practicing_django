@@ -13,6 +13,13 @@
 - [ ] finish beautifying pages  
 
 ***
+![Home](https://user-images.githubusercontent.com/63652516/159135096-55aeed9c-2885-48e8-81a3-3dc0fccb673d.PNG)  
+
+![post](https://user-images.githubusercontent.com/63652516/159135113-e98efd3d-46d3-4ff9-af2a-2cf2998600ab.PNG)
+
+
+
+***
 **Some CMD commands for the beginning**
 ```
 python -m venv env 
