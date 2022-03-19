@@ -8,7 +8,7 @@
 - [x] start app
 - [x] create a model
 - [x] update views and their slug
-- [ ] finish the design for the page
+- [x] finish the design for the page
 
 ***
 **Some CMD commands for the beginning**
