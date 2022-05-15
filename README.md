@@ -22,6 +22,7 @@
 
 ***
 **Some CMD commands for the beginning**
+
 ```
 python -m venv env 
 ```
@@ -42,6 +43,7 @@ django-admin startproject pydjango
 python manage.py startapp blog
 ```
 
+> **to run the project**
 ```
 python manage.py runserver
 ```
