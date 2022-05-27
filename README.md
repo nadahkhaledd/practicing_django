@@ -22,7 +22,7 @@
 
 ***
 **Some CMD commands for the beginning**
-
+in the directory you want to create your project
 ```
 python -m venv env 
 ```
