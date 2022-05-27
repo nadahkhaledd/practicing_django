@@ -35,6 +35,7 @@ env\Scripts\activate
 pip install django
 ```
 
+- in the project directory 
 ```
 django-admin startproject pydjango
 ```
